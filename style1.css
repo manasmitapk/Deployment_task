@@ -1,0 +1,48 @@
+.wrapper {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    grid-gap: 10px 50px;
+    grid-auto-rows: auto;
+  }
+  .border{
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .boxone {
+    grid-column: 1 ;
+    grid-row: 1;
+    
+  }
+  .boxtwo { 
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .boxthree {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .boxfour {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .bixfive {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .boxsix {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .btn-button {
+    background-color: #4CAF50; 
+    border: 1px solid green; 
+    color: white; 
+    float: right;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #3e8e41;
+  }
